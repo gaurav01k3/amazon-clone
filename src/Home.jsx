@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./CSS/Home.css";
 import Product from "./Product.jsx";
 
 const Home = () => {
@@ -21,14 +21,14 @@ const Home = () => {
           />
           <Product
             id="283623275"
-            title="Vandelay Infrared Thermometer - 3 years Sensor Warranty - MADE in INDIA - Non Contact IR Thermometer, Forehead Temperature Gun"
+            title="Vandelay Infrared Thermometer - 3 years Sensor Warranty - MADE in INDIA"
             price={10}
             image="https://images-na.ssl-images-amazon.com/images/I/51yhH82KvZL._SL1280_.jpg"
             rating={5}
           />
           <Product
             id="283623275"
-            title="Vandelay Infrared Thermometer - 3 years Sensor Warranty - MADE in INDIA - Non Contact IR Thermometer, Forehead Temperature Gun"
+            title="Vandelay Infrared Thermometer - 3 years Sensor Warranty - MADE in INDIA"
             price={10}
             image="https://images-na.ssl-images-amazon.com/images/I/51yhH82KvZL._SL1280_.jpg"
             rating={5}
@@ -37,7 +37,7 @@ const Home = () => {
         <div className="home__row">
           <Product
             id="28323275"
-            title="The name
+            title="Gaming chair
 "
             price={10}
             image="https://images-eu.ssl-images-amazon.com/images/I/71KFirs5cWL._AC_UL200_SR150,200_.jpg"
@@ -45,7 +45,7 @@ const Home = () => {
           />
           <Product
             id="223244275"
-            title="The name is this"
+            title="DiSano All Natural Peanut Butter, Crunchy, 30% Protein, Unsweetened, Gluten Free, 1 Kg"
             price={10}
             image="https://images-na.ssl-images-amazon.com/images/I/61szCyA-vBS._AC_SL1280_.jpg"
             rating={5}
@@ -61,9 +61,39 @@ const Home = () => {
         <div className="home__row">
           <Product
             id="2323653435"
-            title="The name is this"
+            title="Vandelay Infrared Thermometer - 3 years Sensor Warranty - MADE in INDIA"
             price={10}
             image="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PCA/GW/tile1_PC_1x-HEALTH2._SY304_CB670262824_.jpg"
+            rating={5}
+          />
+          <Product
+            id="223244275"
+            title="DiSano All Natural Peanut Butter, Crunchy, 30% Protein, Unsweetened, Gluten Free, 1 Kg"
+            price={10}
+            image="https://images-na.ssl-images-amazon.com/images/I/61szCyA-vBS._AC_SL1280_.jpg"
+            rating={5}
+          />
+          <Product
+            id="123324543"
+            title="boAt Rockerz 400 Bluetooth On-Ear Headphone with Mic(Black/Blue)"
+            price={10}
+            image="https://images-na.ssl-images-amazon.com/images/I/61TqvJ3mYPL._AC_SL1500_.jpg"
+            rating={5}
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="223244275"
+            title="DiSano All Natural Peanut Butter, Crunchy, 30% Protein, Unsweetened, Gluten Free, 1 Kg"
+            price={10}
+            image="https://images-na.ssl-images-amazon.com/images/I/61szCyA-vBS._AC_SL1280_.jpg"
+            rating={5}
+          />
+          <Product
+            id="123324543"
+            title="boAt Rockerz 400 Bluetooth On-Ear Headphone with Mic(Black/Blue)"
+            price={10}
+            image="https://images-na.ssl-images-amazon.com/images/I/61TqvJ3mYPL._AC_SL1500_.jpg"
             rating={5}
           />
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Product.css";
+import "./CSS/Product.css";
 import StarTwoToneIcon from "@material-ui/icons/StarTwoTone";
 import { useStateValue } from "./StateProvider";
 

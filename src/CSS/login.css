@@ -79,3 +79,30 @@
   margin-top: 20px;
   color: #767676;
 }
+
+@media only screen and (max-width: 500px) {
+  .login__container {
+    width: 300px;
+    padding: 20px;
+  }
+  .login__registerButton {
+    width: 300px;
+  }
+  .login__logo {
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .login__container {
+    width: 250px;
+    padding: 20px;
+  }
+  .login__registerButton {
+    width: 250px;
+  }
+  .login__logo {
+    width: 110px;
+    margin: -20px auto -30px auto;
+  }
+}

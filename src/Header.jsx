@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./CSS/Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import { Link } from "react-router-dom";
@@ -34,7 +34,9 @@ const Header = () => {
       <div className="header__nav">
         <Link to={!user && "/login"}>
           <div onClick={handleAuthentication} className="header__option">
-            <span className="header__optionLineOne">Hello</span>
+            <span className="header__optionLineOne">
+              {!user ? "Hello Guest" : user.email}
+            </span>
             <span className="header__optionLineTwo">
               {user ? "Log-out" : "Sign-In"}
             </span>
